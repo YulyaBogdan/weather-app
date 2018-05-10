@@ -1,0 +1,27 @@
+.control-panel {
+  opacity: 0.75;
+  width: 33%;
+  color: #6b6b76;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  padding: 12px 24px;
+  margin: 20px;
+  background: #fff;
+  form {
+    margin: 0;
+    width:100%;
+    input {
+      font-size:18px;
+      padding:4% 0 4% 2%;
+      display:block;
+      width:98%;
+      border:none;
+      border-bottom:1px solid #757575;
+    }
+    input:focus {
+      outline:none;
+    }
+  }
+}

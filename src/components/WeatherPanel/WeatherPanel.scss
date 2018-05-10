@@ -1,0 +1,27 @@
+.weather-panel{
+  font-size:11px;
+  margin:0;
+  width:100%;
+  padding:0;
+
+  button{
+    text-align:left;
+    display:inline-block;
+    padding:2% 2% 2% 2%;
+    border: none;
+    border-bottom:1px solid #757575;
+    border-right:1px solid #757575;
+    border-left:1px solid #757575;
+    background-color:#fff;
+    color:#6b6b76;
+  }
+
+  button:focus{
+    outline: none;
+    border: none;
+  }
+
+/*  div{
+    display: none;
+  }*/
+}
