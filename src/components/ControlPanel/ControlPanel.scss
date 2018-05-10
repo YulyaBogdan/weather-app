@@ -1,5 +1,5 @@
 .control-panel {
-  opacity: 0.75;
+  opacity: 0.7;
   width: 33%;
   color: #6b6b76;
   position: absolute;
@@ -11,10 +11,11 @@
   background: #fff;
   form {
     margin: 0;
+    margin-bottom: 2%;
     width:100%;
     input {
       font-size:18px;
-      padding:4% 0 4% 2%;
+      padding:2% 0 1% 2%;
       display:block;
       width:98%;
       border:none;

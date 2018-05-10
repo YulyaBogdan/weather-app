@@ -9,12 +9,11 @@ export const getSearch = createAction('search city fetched');
 
 export const fetchWeather = createAction('search weather');
 export const getWeather = createAction('search weather fetched');
-
 const defaultStore = {};
 
 const cityReducer = createReducer({
   [getSearch]: (state, payload) => payload,
-  [getWeather]: (state, payload) =>({...state, payload})
+  [getWeather]: (state, weatherParams) => ({...state, weatherParams})
 }, defaultStore);
 
 const sagaMiddleware = createSagaMiddleware();

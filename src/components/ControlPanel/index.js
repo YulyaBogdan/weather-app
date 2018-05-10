@@ -18,7 +18,6 @@ class ControlPanel extends PureComponent {
     super();
     this.state = {
       city: '',
-      found: false
     };
   }
 
@@ -44,7 +43,7 @@ class ControlPanel extends PureComponent {
             onChange={e => this.setState({city: e.target.value})}
           />
         </form>
-        <WeatherPanel found={this.state.found} city={this.state.city}/>
+        <WeatherPanel city={this.state.city}/>
       </Container>
     );
   }

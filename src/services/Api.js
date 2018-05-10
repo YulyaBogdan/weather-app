@@ -5,7 +5,7 @@ const MAPBOX_ACCESS_TOKEN = process.env.REACT_APP_MAPBOX_TOKEN;
 
 export default {
   fetchCityFromMapbox: (locale) => {
-    axios.get(`${MAPBOX_API}/geocoding/v5/mapbox.places/${locale}.json`,
+    return axios.get(`${MAPBOX_API}/geocoding/v5/mapbox.places/${locale}.json`,
       {
         params: {
           access_token: MAPBOX_ACCESS_TOKEN

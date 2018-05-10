@@ -59,8 +59,7 @@ class Map extends Component {
 
   render() {
 
-    const {viewport} = {...this.state, transitionInterpolator: new FlyToInterpolator(),
-      transitionDuration: 3000};
+    const {viewport} = {...this.state, transitionInterpolator: new FlyToInterpolator(), transitionDuration: 3000};
 
     if(this.props.location){
       viewport.longitude= this.props.location[0];
